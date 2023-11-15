@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+
 import Bottom from './Bottom';
 import Card from './Card';
 

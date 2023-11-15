@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import Bottom from "./Bottom";
 import img from './full.jpeg'
 import Card from "./Card";
