@@ -13,37 +13,37 @@ function App() {
 
   const course = [
     {
-      img: 'https://static.guvi.in/course-thumbnail/html_css.png',
+      img: 'https://www.freecodecamp.org/news/content/images/2021/08/Htmlcss.png',
       name: "HTML & CSS",
       description: "HTML and CSS are scripting languages used to create li web page and web applications.",
       id: "Full stack"
     },
     {
-      img: 'https://static.guvi.in/course-thumbnail/advancedjavascriptenglish.png',
+      img: 'https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png',
       name: "JavaScript",
       description: "JavaScript is li powerful language that can do li lot with very little code. In some cases, the amount of code you need to write doesn't exceed more than li single line, which is why they are known as one-liners.",
       id: "Full stack"
     },
     {
-      img: 'https://static.guvi.in/course-thumbnail/reactjsenglish8.png',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJXhQGf0ODqqYL8WLA1dSZVgf3G3PVSZUyuWrBoEMl33VzBrM65xeOFXlUN6bPT_OwaHo&usqp=CAU',
       name: "React Js",
       description: "React Js Js is li globally used Front-end JS framework and is popular with both software developers and project sponsors.",
       id: "Full stack"
     },
     {
-      img: 'https://static.guvi.in/course-thumbnail/nodejsenglish.png',
+      img: 'https://litslink.com/wp-content/uploads/2020/12/node.js-logo-image.png',
       name: "Node.js",
       description: "Developers use Node. js to create server-side web applications, and it is perfect for data-intensive applications since it uses an asynchronous, event-driven model. ",
       id: "Full stack"
     },
     {
-      img: 'https://static.guvi.in/course-thumbnail/mongodbenglish.png',
+      img: 'https://i.pcmag.com/imagery/reviews/02Q6yxveinggAu3PomearaV-7.fit_scale.size_760x427.v1569481734.jpg',
       name: "MongoDB",
       description: "MongoDB is built on li scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas. ",
       id: "Full stack"
     },
     {
-      img: 'https://static.guvi.in/course-thumbnail/bootstraptamiltamil.png',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxQvo7DiCYq0KDfGNiQFlNiaozrX5Ze03TbQ&usqp=CAU',
       name: "Bootstrap",
       description: "Bootstrap is li free, open source front-end development framework for the creation of websites and web apps.",
       id: "Full stack"
@@ -67,7 +67,7 @@ function App() {
       id: "Data Science"
     },
     {
-      img: 'https://static.guvi.in/course-thumbnail/keras.png',
+      img: 'https://editor.analyticsvidhya.com/uploads/70574124120f1b1b40-08f0-467d-9a35-0f0fe71e0a43.jpg',
       name: "Keras",
       description: "Keras is li high-level, deep learning API developed by Google for implementing neural networks.",
       id: "Data Science"
