@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Media query for small screens */
+@media screen and (max-width: 576px) {
+  .responsive-image {
+    /* Adjust the styles for small screens */
+    max-width: 100%;
+  }
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .responsive-image {
+    /* Adjust the styles for medium screens */
+    max-width: 80%; /* For example, you can set a different maximum width */
+  }
+}
+@media screen and (min-width :769px)and(max-width:992) {
+  
+}
