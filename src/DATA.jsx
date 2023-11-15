@@ -12,7 +12,7 @@ const DATA = ({ course }) => {
           <div className="col-xl-12">
             <img
               className="responsive-image"
-              width={1300}
+              style={{width:"100%"}}
               height={300}
               src={dataimg}
               alt=""
@@ -22,7 +22,7 @@ const DATA = ({ course }) => {
           {course.map((item,index) => {
             if (item.id === "Data Science") 
               return <Card key={index} item={item}/>
-              
+            return null; 
             
           })}
         </div>

@@ -10,7 +10,7 @@ const All = ({ course }) => {
         <div className="row">
           <div className="col-12">
             <img
-              width={1200}
+              style={{width:"100%"}}
               className="img-fluid"
               src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png"
               alt=""
