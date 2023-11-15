@@ -18,10 +18,10 @@ const CAREER = ({course}) => {
           />
         </div>
       <Bottom/>
-      {course.map((item,index) => { if(item.id === "Career"){
+      {course.map((item,index) => { if(item.id === "Career")
             return (
                 <Card key={index} item={item}/>
-            );}
+            );
           })}
       </div>
     </div>

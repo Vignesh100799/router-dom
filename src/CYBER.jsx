@@ -18,10 +18,10 @@ const CYBER = ({course}) => {
           />
         </div>
        <Bottom/>
-       {course.map((item,index) => { if(item.id === "Cyber security"){
+       {course.map((item,index) => { if(item.id === "Cyber security")
             return (
                 <Card key={index} item={item}/>
-            );}
+            );
           })}
       </div>
     </div>

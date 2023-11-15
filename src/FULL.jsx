@@ -15,10 +15,10 @@ const FULL = ({course}) => {
           </div>
           <Bottom/>
 
-          {course.map((item,index) => { if(item.id === "Full stack"){
+          {course.map((item,index) => { if(item.id === "Full stack")
             return (
                 <Card key={index} item={item}/>
-            );}
+            );
           })}
         </div>
       </div>

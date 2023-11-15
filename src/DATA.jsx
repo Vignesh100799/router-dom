@@ -20,11 +20,10 @@ const DATA = ({ course }) => {
           </div>
           <Bottom />
           {course.map((item,index) => {
-            if (item.id === "Data Science") {
-              return (
-                <Card key={index} item={item}/>
-              );
-            }
+            if (item.id === "Data Science") 
+              return <Card key={index} item={item}/>
+              
+            
           })}
         </div>
       </div>
