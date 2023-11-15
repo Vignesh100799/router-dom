@@ -8,9 +8,9 @@ const Navbar = () => {
 
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
      
-        <a className="navbar-brand">
+        <div className="navbar-brand">
           <img width="121" height="53" src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="Guvi-blog-logo" />
-        </a>
+        </div>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -18,52 +18,52 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page">COURSES</a>
+              <div className="nav-link active" aria-current="page">COURSES</div>
             </li>
 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 LIVE CLASSES
-              </a>
+              </div>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item"><h5>Zen Class</h5></a></li>
-                <li><a className="dropdown-item">Full Stack Development Program (FSD)</a></li>
-                <li><a className="dropdown-item">IIT-M Advanced Programming & Data Science Program</a></li>
-                <li><a className="dropdown-item">Automation & Testing Program</a></li>
+                <li><div className="dropdown-item"><h5>Zen Class</h5></div></li>
+                <li><div className="dropdown-item">Full Stack Development Program (FSD)</div></li>
+                <li><div className="dropdown-item">IIT-M Advanced Programming & Data Science Program</div></li>
+                <li><div className="dropdown-item">Automation & Testing Program</div></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 PRACTICE
-              </a>
+              </div>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item">Codekata</a></li>
-                <li><a className="dropdown-item">Webkata</a></li>
+                <li><div className="dropdown-item">Codekata</div></li>
+                <li><div className="dropdown-item">Webkata</div></li>
 
-                <li><a className="dropdown-item">IDE - Online Compiler</a></li>
+                <li><div className="dropdown-item">IDE - Online Compiler</div></li>
 
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 RESOURCES
-              </a>
+              </div>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item">REWARDS</a></li>
-                <li><a className="dropdown-item">REFFERAL</a></li>
+                <li><div className="dropdown-item">REWARDS</div></li>
+                <li><div className="dropdown-item">REFFERAL</div></li>
 
-                <li><a className="dropdown-item">FORUM SUPPORT</a></li>
-                <li><a className="dropdown-item">BLOGS</a></li>
+                <li><div className="dropdown-item">FORUM SUPPORT</div></li>
+                <li><div className="dropdown-item">BLOGS</div></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 OUR PRODUCTS
 
-              </a>
+              </div>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item">HackerKid</a></li>
-                <li><a className="dropdown-item">GUVI for Corporates</a></li>
+                <li><div className="dropdown-item">HackerKid</div></li>
+                <li><div className="dropdown-item">GUVI for Corporates</div></li>
 
 
               </ul>
