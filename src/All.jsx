@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from './all.webp'
 import Bottom from "./Bottom";
 import Card from "./Card";
 
@@ -12,7 +12,7 @@ const All = ({ course }) => {
             <img
               style={{width:"100%"}}
               className="img-fluid"
-              src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png"
+              src={img}
               alt=""
             />
           </div>
