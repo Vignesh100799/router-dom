@@ -99,7 +99,7 @@ function App() {
   ]
   return (
 
-    <div >
+    <div className="container-fluid m-0 p-0" >
     <BrowserRouter>
     <Navbar/> 
       <Routes>
