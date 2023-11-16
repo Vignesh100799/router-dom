@@ -54,9 +54,21 @@
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .responsive-image {
     /* Adjust the styles for medium screens */
-    max-width: 80%; /* For example, you can set a different maximum width */
+    max-width: 80%; 
   }
 }
 @media screen and (min-width :769px)and(max-width:992) {
   
+}
+.nav-link{
+  font-weight: 700 !important;
+}
+.nav-link:hover{
+background-color: green !important;
+
+}
+.nav-link:visited{
+text-decoration: underline;
+
+
 }

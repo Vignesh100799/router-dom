@@ -19,10 +19,10 @@ const Bottom = () => {
       </button>
       <div className="collapse  justify-content-center  navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <Link className="nav-link" to={'/'}>
+          <Link className="nav-link " to={'/'}>
             ALL
           </Link>
-          <Link className="nav-link" to={'/FULL-STACK-DEVELOPMENT'}>
+          <Link className="nav-link " to={'/FULL-STACK-DEVELOPMENT'}>
             FULL STACK DEVELOPMENT
           </Link>
           <Link className="nav-link" to={"/DATA-SCIENCE"}>
